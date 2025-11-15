@@ -10,9 +10,15 @@
     --font-heading: 'Raleway';
 }
 
-body {
-    background-color: #080808;
+h1, h2, h3, h4 {
+    font-family: var(--font-heading);
 }
+
+p, a {
+    font-family: var(--font-main);
+}
+
+
 
 .flex-center {
     display: flex;
@@ -20,9 +26,12 @@ body {
     justify-content: center;
 }
 
+.top-section {
+    background-color: #080808;
+}
+
 .navigation {
     flex-direction: row;
-    /* justify-content: space-between; */
     background-color: #1B1B1B;
     height: 70px;
     margin: 0 6.6% 150px;
@@ -31,6 +40,7 @@ body {
     font-weight: 400;
     font-size: 14px;
     letter-spacing: 1px;
+    
 }
 
 .nav-links {
@@ -55,17 +65,20 @@ body {
 .hero {
     flex-direction: row;
     margin: 50px 10%;
+    gap: 32px;
 }
 
 .column1 {
     display: flex;
     flex-direction: column;
-    margin-right: 32px;
-    width: 60%;
+    flex: 1;
+    max-width: 60%;
 }
 
+.column1 .column1-content {
+    max-width: 490px;
+}
 .column1 h1 {
-    font-family: var(--font-heading);
     color: #FFFFFF;
     font-weight: 800;
     font-size: 44px;
@@ -73,7 +86,6 @@ body {
 }
 
 .column1 p {
-    font-family: var(--font-main);
     color: #9C9C9C;
     font-weight: 400;
     font-size: 14px;
@@ -87,14 +99,10 @@ body {
     border-radius: 4px;
     box-shadow: 0px 8px 30px 0px #3F8E0080;
     padding: 21px 64px;
-    display: inline-block;
+    align-self: flex-start;
     cursor: pointer;
-}
-
-.column1 .get-started a {
     color: #FFFFFF;
     text-decoration: none;
-    font-family: var(--font-main);
     font-weight: 700;
     font-size: 16px;
     line-height: 100%;
@@ -107,5 +115,41 @@ body {
 }
 
 .column2 {
-    width: 40%;
+    flex: 1;
+    max-width: 40%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.collabs {
+    margin: 50px 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.collabs p {
+    color:#FFFFFF;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.brands {
+    flex: 1;
+    gap: 30px;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.brand-logo {
+    border: 1px solid #1B1B1B;
+    border-radius: 6px;
+    width: 160px;
+    height: 60px;
+}
+
+.fa-brands {
+    color: ;
 }
