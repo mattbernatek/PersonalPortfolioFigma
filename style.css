@@ -63,7 +63,7 @@ p, a {
 
 .hero {
     flex-direction: row;
-    margin: 50px 10%;
+    margin: 50px 14%;
     gap: 32px;
 }
 
@@ -282,4 +282,97 @@ p, a {
 
 .case-study p, .case-study-reverse p {
     margin-bottom: 40px;
+}
+
+.testimonials {
+    background-color: #080808;
+    padding: 80px 14%;
+}
+
+.intro-text-testimonials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-text-testimonials h3 {
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 100%;
+    letter-spacing: 0.01em;
+    vertical-align: bottom;
+    margin-bottom: 10px;
+}
+
+.intro-text-testimonials p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #9C9C9C;
+    margin-bottom: 60px;
+}
+
+.recommendations {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.recommendations p {
+    color: #9C9C9C;
+}
+
+.recommendation {
+    position: relative;
+    padding: 30px;
+    border: 1px solid transparent;
+    border-image: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.18) 0%,   /* strong on the left */
+      rgba(255, 255, 255, 0.18) 35%,  /* keep it solid for a bit */
+      rgba(255, 255, 255, 0.10) 60%,  /* start softening */
+      rgba(255, 255, 255, 0.04) 80%,  /* almost gone */
+      rgba(255, 255, 255, 0.00) 100%  /* fully transparent on the right */
+  ) 1;
+}
+
+.recommendation p {
+    margin-bottom: 30px;
+}
+
+.quote-mark {
+    position: absolute;
+    top: -35px;
+    left: 20px;
+    font-size: 100px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.client {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
+}
+
+.client p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+
+.client h4 {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+    vertical-align: bottom;
+    color: #FFFFFF;
 }
