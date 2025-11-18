@@ -165,6 +165,7 @@ p, a {
 }
 
 .intro-text {
+    display: flex;
     flex-direction: column;
     width: 570px;
     text-align: center;
@@ -379,4 +380,74 @@ p, a {
     text-align: center;
     vertical-align: bottom;
     color: #FFFFFF;
+}
+
+.recent-work {
+    padding: 80px 14%;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.recent-work p {
+    color: #9C9C9C;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.work-examples {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 445px;
+    max-height: 494px;
+    gap: 30px;
+}
+
+.work-examples img {
+    width: 445px;
+    height: 300px;
+    margin-bottom: 40px;
+}
+
+.work-examples h4 {
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: bottom;
+    margin-bottom: 20px;
+}
+
+.work-examples p {
+    font-family: IBM Plex Mono;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    margin-bottom: 20px;
+}
+
+.work-example {
+    display: flex;
+    flex-direction: column;
+}
+
+.work-example a {
+    background-color: #3F8E00;
+    border: 1px solid #62BA1B;
+    border-radius: 4px;
+    box-shadow: 0px 8px 30px 0px #3F8E0080;
+    padding: 10px 24px;
+    align-self: flex-start;
+    cursor: pointer;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
 }
