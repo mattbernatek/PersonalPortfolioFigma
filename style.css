@@ -10,7 +10,7 @@
     --font-heading: 'Raleway';
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h2, h3, h5 {
     font-family: var(--font-heading);
 }
 
@@ -172,7 +172,7 @@ p, a, label, input, textarea {
     margin-bottom: 60px;
 }
 
-.intro-text h3 {
+.intro-text h2 {
     font-weight: 800;
     font-size: 34px;
     margin-bottom: 10px;
@@ -279,7 +279,7 @@ p, a, label, input, textarea {
     box-shadow: 0px 2px 10px 0px #2AB090;
 }
 
-.case-study h4, .case-study-reverse h4 {
+.case-study h3, .case-study-reverse h3 {
     font-size: 24px;
     font-weight: 800;
     line-height: 100%;
@@ -302,7 +302,7 @@ p, a, label, input, textarea {
     align-items: center;
 }
 
-.intro-text-testimonials h3 {
+.intro-text-testimonials h2 {
     color: #FFFFFF;
     font-weight: 800;
     font-size: 34px;
@@ -373,8 +373,7 @@ p, a, label, input, textarea {
     letter-spacing: 1px;
 }
 
-.client h4 {
-    font-family: Raleway;
+.client h3 {
     font-weight: 700;
     font-size: 18px;
     line-height: 100%;
@@ -414,8 +413,7 @@ p, a, label, input, textarea {
     margin-bottom: 40px;
 }
 
-.work-examples h4 {
-    font-family: Raleway;
+.work-examples h3 {
     font-weight: 800;
     font-size: 24px;
     line-height: 100%;
@@ -425,7 +423,6 @@ p, a, label, input, textarea {
 }
 
 .work-examples p {
-    font-family: IBM Plex Mono;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -465,7 +462,7 @@ p, a, label, input, textarea {
     align-items: center;
 }
 
-.contact-form h3 {
+.contact-form h2 {
     font-weight: 800;
     font-size: 34px;
     line-height: 100%;
