@@ -11,224 +11,292 @@
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="top-section">
-        <nav class="navigation flex-center">
-            <ul class="nav-links flex-center">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Case Studies</a></li>
-                <li><a href="#">Testimonials</a></li>
-                <li><a href="#">Recent Work</a></li>
-                <li><a href="#">Get In Touch</a></li>
-            </ul>
-            <div class="social-icons flex-center">
-                <a href="#">
-                    <img src="Assets/LinkedIn.svg" alt="LinkedIn Logo">
-                </a>
+    <header class="site-header">
+        <div class="container">
+        <!-- NAVIGATION -->
+            <nav class="navigation">
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#case-studies">Case Studies</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#recent-work">Recent Work</a></li>
+                    <li><a href="#contact">Get In Touch</a></li>
+                </ul>
 
-                <a href="#">
-                    <img src="Assets/Behance.svg" alt="Behance Logo">
-                </a>
+                <div class="social-icons">
+                    <a href="#">
+                        <img src="Assets/LinkedIn.svg" alt="LinkedIn Logo">
+                    </a>
 
-                <a href="#">
-                    <img src="Assets/Twitter.svg" alt="Twitter Logo">
-                </a>
-            </div>
-        </nav>
-        <section class="hero flex-center">
-            <article class="column1">
-                <div class="column1-content">
-                    <h1>Matt Bernatek</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni voluptatem aut, voluptate delectus voluptatum aspernatur? Nihil labore error velit architecto dignissimos recusandae modi possimus aliquam.</p>
+                    <a href="#">
+                        <img src="Assets/Behance.svg" alt="Behance Logo">
+                    </a>
+
+                    <a href="#">
+                        <img src="Assets/Twitter.svg" alt="Twitter Logo">
+                    </a>
                 </div>
-                <a class="get-started" href="#">Let's get started ></a>
-                
-                
-            </article>
+            </nav>
+
+            <!-- HERO SECTION -->
+            <section id="hero" class="hero">
+                <article class="hero-content">
+                    <h1 class="hero-title">Matt Bernatek</h1>
+                    <p class="hero-text">
+                        
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni voluptatem aut, voluptate delectus voluptatum aspernatur? Nihil labore error velit architecto dignissimos recusandae modi possimus aliquam.
                     
-            <article class="column2">
-                <img src="Assets/Profile.jpg" alt="Picture of a Software Engineer">
-            </article>
-        </section>
+                    </p>
+                    
+                    <a class="btn btn-hero" href="#contact">Let's get started &gt;</a>
+                    
+                    
+                </article>
+                        
+                <article class="hero-media">
+                    <img src="Assets/Profile.jpg" alt="Picture of a Software Engineer" class="hero-image">
+                </article>
+            </section>
 
-        <section class="collabs">
-            <p>Worked with</p>
-            <div class="brands flex-center">
-                <div class="brand-logo flex-center">
-                    <img src="Assets/clickup logo 1.svg" alt="ClickUp company logo">
-                </div>
+            <!-- COLLABS SECTION -->
+            <section class="collabs">
+                <p class="collabs-label">Worked with</p>
+                <div class="collabs-brands">
+                    <div class="brand-logo">
+                        <img src="Assets/clickup logo 1.svg" alt="ClickUp company logo">
+                    </div>
 
-                <div class="brand-logo flex-center">
-                    <img src="Assets/dropbox_blue 1.svg" alt="Dropbox company logo">
-                </div>
+                    <div class="brand-logo">
+                        <img src="Assets/dropbox_blue 1.svg" alt="Dropbox company logo">
+                    </div>
 
-                <div class="brand-logo flex-center">
-                    <img src="Assets/Paycheck.svg" alt="Paycheck company logo">
-                </div>
+                    <div class="brand-logo">
+                        <img src="Assets/Paycheck.svg" alt="Paycheck company logo">
+                    </div>
 
-                <div class="brand-logo flex-center">
-                    <img src="Assets/Elastic logo 1.svg" alt="Elastic company logo">
-                </div>
+                    <div class="brand-logo">
+                        <img src="Assets/Elastic logo 1.svg" alt="Elastic company logo">
+                    </div>
 
-                <div class="brand-logo flex-center">
-                    <img src="Assets/Stripe.svg" alt="Stripe company logo">
+                    <div class="brand-logo">
+                        <img src="Assets/Stripe.svg" alt="Stripe company logo">
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
     </header>
 
     <main>
-        <section class="case-studies">
-            <div class="intro-text">
-                <h2>Case Studies</h2>
-                <p>Solving user and business problems for the last 15 years.</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus voluptas ad aut recusandae dolorem, culpa enim amet ratione quibusdam est.</p>
-            </div>
 
-            <article class="case-study">
-                <div class="case-study-column1">
-                    <p class="fintech">Fintech</p>
-                    <h3>Work name here</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel tempora dicta a nulla non accusamus. Accusamus sapiente earum nisi nemo?</p>
-                    <a href="#" class="case-study-button1">View Case Study ></a>
-                </div>
+        <!-- CASE STUDIES -->
+        <section id="case-studies" class="case-studies">
+            <div class="container">
+                <div class="section-intro section-intro-center">
+                    <h2 class="section-intro-title">Case Studies</h2>
+                    
+                    <p class="section-intro-text"> 
+                        
+                        Solving user and business problems for the last 15 years. <br>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus voluptas ad aut recusandae dolorem, culpa enim amet ratione quibusdam est.
 
-                <div class="case-study-column2">
-                    <img src="Assets/CaseStudy1.svg" alt="UX design workspace">
-                </div>
-            </article>
-
-            <article class="case-study-reverse">
-                <div class="case-study-column1">
-                    <p class="edtech">EdTech</p>
-                    <h3>Work name here</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel tempora dicta a nulla non accusamus. Accusamus sapiente earum nisi nemo?</p>
-                    <a href="#" class="case-study-button2">View Case Study ></a>
-                </div>
-
-                <div class="case-study-column2">
-                    <img src="Assets/CaseStudy2.svg" alt="Hand drawn palette sketches on a tablet">
-                </div>
-            </article>
-
-            <article class="case-study">
-                <div class="case-study-column1">
-                    <p class="pharma">Pharma</p>
-                    <h3>Work name here</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel tempora dicta a nulla non accusamus. Accusamus sapiente earum nisi nemo?</p>
-                    <a href="#" class="case-study-button3">View Case Study ></a>
-                </div>
-
-                <div class="case-study-column2">
-                    <img src="Assets/CaseStudy3.svg" alt="UI/UX design systems with a plant in the foreground">
-                </div>
-            </article>
-
-        </section>
-
-        <section class="testimonials">
-            <div class="intro-text-testimonials">
-                <h2>Testimonials</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </div>
-
-            <div class="recommendations">
-
-                <article class="recommendation">
-                    <span class="quote-mark">“</span>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                     </p>
-                    <div class="client">
-                        <img src="Assets/Client photo 1.png" alt="Client picture">
-                        <h3>Client Name</h3>
+                </div>
+
+                <article class="case-study">
+                    <div class="case-content">
+                        <span class="case-tag case-tag-fintech">Fintech</span>
+                        <h3 class="case-title">Work name here</h3>
+                        <p class="case-text">
+                            
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel tempora dicta a nulla non accusamus. Accusamus sapiente earum nisi nemo?
+                        
+                        </p>
+
+                        <a href="#" class="btn btn-orange">View Case Study &gt;</a>
+                    </div>
+
+                    <div class="case-media">
+                        <img src="Assets/CaseStudy1.svg" alt="UX design workspace">
+                    </div>
+
+                </article>
+
+                <article class="case-study case-study-reverse">
+                    <div class="case-content">
+                        <span class="case-tag case-tag-edtech">EdTech</span>
+                        <h3 class="case-title">Work name here</h3>
+                        <p class="case-text">
+                            
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel tempora dicta a nulla non accusamus. Accusamus sapiente earum nisi nemo?
+                        
+                        </p>
+                        <a href="#" class="btn btn-blue">View Case Study &gt;</a>
+                    </div>
+
+                    <div class="case-media">
+                        <img src="Assets/CaseStudy2.svg" alt="Hand drawn palette sketches on a tablet">
                     </div>
                 </article>
 
-                <article class="recommendation">
-                    <span class="quote-mark">“</span>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    </p>
-                    <div class="client">
-                        <img src="Assets/Client photo 2.png" alt="Client picture">
-                        <h3>Client Name</h3>
+                <article class="case-study">
+                    <div class="case-content">
+                        <span class="case-tag case-tag-pharma">Pharma</span>
+                        <h3 class="case-title">Work name here</h3>
+                        <p class="case-text">
+                            
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel tempora dicta a nulla non accusamus. Accusamus sapiente earum nisi nemo?
+                        
+                        </p>
+                        <a href="#" class="btn btn-teal">View Case Study &gt;</a>
                     </div>
-                </article>
 
-                <article class="recommendation">
-                    <span class="quote-mark">“</span>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    </p>
-                    <div class="client">
-                        <img src="Assets/Client photo 3.png" alt="Client picture">
-                        <h3>Client Name</h3>
+                    <div class="case-study-column2">
+                        <img src="Assets/CaseStudy3.svg" alt="UI/UX design systems with a plant in the foreground">
                     </div>
-                </article>
-
-                <article class="recommendation">
-                    <span class="quote-mark">“</span>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    </p>
-                    <div class="client">
-                        <img src="Assets/Client photo 4.png" alt="Client picture">
-                        <h3>Client Name</h3>
-                    </div>
-                </article>
-
-            </div>
-        </section>
-
-        <section class="recent-work">
-            <div class="intro-text">
-                <h2>Recent Work</h2>
-                <p>Solving user & business problems for the last 15+ years. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </div>
-
-            <div class="work-examples">
-                <article class="work-example">
-                    <img src="Assets/RecentWork1.png" alt="A workspace">
-                    <h3>Work name here</h3>
-                    <p>Labore et dolore magna aliqua. sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                    <a class="know-more" href="#">Know more ></a>
-                </article>
-
-                <article class="work-example">
-                    <img src="Assets/RecentWork2.png" alt="A workspace">
-                    <h3>Work name here</h3>
-                    <p>Rempor incididunt ut labore et dolore magna aliqua. sed do eiusmod tempor incididunt u</p>
-                    <a class="know-more" href="#">Know more ></a>
                 </article>
             </div>
         </section>
 
-        <section class="contact-form">
-            
-            <div class="contact-form-intro">
-                <h2>Get in Touch</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <!-- TESTIMONIALS SECTION -->
+        <section id="testimonials" class="section section-dark">
+            <div class="container">
+                <div class="section-intro section-intro-center">
+                    <h2 class="section-intro-title">Testimonials</h2>
+                    <p class="section-intro-text">
+                        
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    
+                    </p>
+                </div>
+
+                
+                <div class="testimonials-grid">
+
+                    <article class="testimonial-card">
+                        <span class="quote-mark">“</span>
+                        <p class="testimonial-card-text">
+                            
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                            tempor incididunt ut labore et dolore magna aliqua. 
+
+                        </p>
+                        
+                        <div class="testimonial-card-client">
+                            <img src="Assets/Client photo 1.png" alt="Client picture">
+                            <h3 class="testimonial-card-name">Client Name</h3>
+                        </div>
+                    </article>
+
+                    <article class="testimonial-card">
+                        <span class="quote-mark">“</span>
+                        <p class="testimonial-card-text">
+                            
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        
+                        </p>
+                        <div class="testimonial-card-client">
+                            <img src="Assets/Client photo 2.png" alt="Client picture">
+                            <h3 class="testimonial-card-name">Client Name</h3>
+                        </div>
+                    </article>
+
+                    <article class="testimonial-card">
+                        <span class="quote-mark">“</span>
+                        <p class="testimonial-card-text">
+                            
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        
+                        </p>
+                        <div class="testimonial-card-client">
+                            <img src="Assets/Client photo 3.png" alt="Client picture">
+                            <h3 class="testimonial-card-name">Client Name</h3>
+                        </div>
+                    </article>
+
+                    <article class="testimonial-card">
+                        <span class="quote-mark">“</span>
+                        <p class="testimonial-card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        </p>
+                        <div class="testimonial-card-client">
+                            <img src="Assets/Client photo 4.png" alt="Client picture">
+                            <h3 class="testimonial-card-name">Client Name</h3>
+                        </div>
+                    </article>
+
+                </div>
             </div>
+        </section>
 
-            <form action="#" method="post" class="get-in-touch-form">
+        <!-- RECENT WORK SECTION -->
+        <section id="recent-work" class="recent-work">
+            <div class="container">
+                <div class="section-intro section-intro-center">
+                    <h2 class="section-intro-title">Recent Work</h2>
+                    <p class="section-intro-text">
+                        
+                        Solving user & business problems for the last 15+ years. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="text" id="email" name="email" placeholder="Please enter your email" required>
+                    </p>
                 </div>
 
-                <div class="form-group">
-                    <label for="mobile">Mobile</label>
-                    <input type="number" id="number" name="number" placeholder="Enter your mobile" required>
+                <div class="work-grid">
+                    <article class="work-example">
+                        <img src="Assets/RecentWork1.png" alt="A workspace">
+                        <h3 class="work-title">Work name here</h3>
+                        <p class="work-text">
+                            
+                            Labore et dolore magna aliqua. sed do eiusmod tempor incididunt ut labore et dolore magna.
+                        
+                        </p>
+                        <a class="btn btn-work" href="#">Know more &gt;</a>
+                    </article>
+
+                    <article class="work-example">
+                        <img src="Assets/RecentWork2.png" alt="A workspace">
+                        <h3 class="work-title">Work name here</h3>
+                        <p class="work-text">
+                            
+                            Rempor incididunt ut labore et dolore magna aliqua. sed do eiusmod tempor incididunt u
+                        
+                        </p>
+                        <a class="btn btn-work" href="#">Know more &gt;</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-form">
+            <div class="container">
+                <div class="section-intro section-intro-center">
+                    <h2 class="section-intro-title">Get in Touch</h2>
+                    <p class="section-intro-text">
+                        
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    
+                    </p>
                 </div>
 
-                <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
-                </div>
+                <form action="#" method="post" class="get-in-touch-form">
 
-                <button type="submit" class="btn">Submit ></button>
-            </form>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="email" placeholder="Please enter your email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="mobile">Mobile</label>
+                        <input type="number" id="number" name="number" placeholder="Enter your mobile" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-hero">Submit &gt;</button>
+                </form>
+            </div>
         </section>
     </main>
 
